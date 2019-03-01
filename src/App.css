@@ -3,14 +3,18 @@
 }
 
 .App-header {
-  background-color: #ebeaea;
   min-height: 10vh;
   display: flex;
   justify-content: center;
+  font-family: 'Montserrat', sans-serif;
   font-size: calc(10px + 2vmin);
   color: black;
 }
 
 .Button {
 
+}
+
+.Body {
+  font-family: 'Montserrat', sans-serif;
 }
