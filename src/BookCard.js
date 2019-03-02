@@ -15,7 +15,7 @@ const BookCard = props => {
     console.log(authors);
 
     return (
-        <div id="results">
+        <div class="bookCard">
             <img 
                 className="bookImage"
                 src={thumbnail}

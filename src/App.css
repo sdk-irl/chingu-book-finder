@@ -15,6 +15,11 @@
   
 }
 
+.bookCard {
+  width: 350px;
+  height: 300px;
+}
+
 .bookResults {
   width: 100%;
   display: flex;

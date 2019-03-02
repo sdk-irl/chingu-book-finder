@@ -38,7 +38,7 @@ class SearchBar extends Component {
             <div className="Search-bar">
                 <input
                     type="text"
-                    placeholder="Search by title"
+                    placeholder="Search"
                     ref={this.setInputRef}
                 />
                 <button className="Button" onClick={this.updateSearch}>Search</button>
