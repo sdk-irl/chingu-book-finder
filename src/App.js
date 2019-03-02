@@ -7,13 +7,12 @@ class App extends Component {
   state = {
     books: []
 }
+//function that sets the state of this component to what's passed back from search bar
 updateResults = books => {
   this.setState({books: books})
 }
-//function that sets the state of this component to what's passed back from search bar
-
+  //renders the header, search bar component, and as many book cards as the search returns, usually 10
   render() {
-    console.log('RENDERING'); console.log(this.state.books);
     return (
       <div className="app">
         <header className="app-header">

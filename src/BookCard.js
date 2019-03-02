@@ -4,16 +4,11 @@ import React, { Component } from 'react';
 
 const BookCard = props => {
     const bookData = props.bookData;
-
+    //ternary operators to handle no data returned for thumbnails and authors, and to join the authors array
     const thumbnail = bookData.imageLinks ? bookData.imageLinks.smallThumbnail : null;
     const authors = bookData.authors ? bookData.authors.join() : "None";
 
-
-    //component returns
-    console.log(bookData.title)
-    console.log(bookData.publisher)
-    console.log(authors);
-
+    //renders book card component with image, title, pub, author(s), and link to more info
     return (
         <div class="bookCard">
             <img 
