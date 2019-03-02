@@ -11,15 +11,19 @@ const BookCard = props => {
     //renders book card component with image, title, pub, author(s), and link to more info
     return (
         <div class="bookCard">
-            <img 
-                className="bookImage"
-                src={thumbnail}
-                alt={"Cover for " + bookData.title}>
-            </img>
-            <div>{bookData.title}</div>
-            <div>{bookData.publisher}</div>
-            <div>{authors}</div>
-            <a href={bookData.infoLink}>More info</a>
+            <div class="imageContainer">
+                <img 
+                    className="bookImage"
+                    src={thumbnail}
+                    alt={"Cover for " + bookData.title}>
+                </img>
+            </div>
+            <div class="bookInfo">
+                <div>{bookData.title}</div>
+                <div>{bookData.publisher}</div>
+                <div>{authors}</div>
+                <a href={bookData.infoLink}>More info</a>
+            </div>
         </div>
     );
 }

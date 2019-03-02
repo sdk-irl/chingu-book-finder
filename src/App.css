@@ -18,6 +18,12 @@
 .bookCard {
   width: 350px;
   height: 300px;
+  display: flex;
+}
+
+.bookInfo {
+  flex-wrap: nowrap;
+  text-align: left;
 }
 
 .bookResults {
