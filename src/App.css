@@ -1,9 +1,9 @@
+/* Main page formatting */
 .app {
   text-align: center;
 }
 
 .app-header {
-  min-height: 10vh;
   display: flex;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
@@ -11,32 +11,56 @@
   color: black;
 }
 
-.bookImage {
-  
-}
-
-.bookCard {
-  width: 350px;
-  height: 300px;
+.body {
+  font-size:110%;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
 }
 
+.button {
+  border-radius: 8px;
+  margin: .5em;
+}
+
+/* Card formatting */
+.bookImage {
+  padding: 1em;
+}
+
+.bookCard {
+  margin: .5em;
+  width: 350px;
+  height: 300px;
+  display: flex;
+  background-color: #3EB6C5;
+  border-radius: 12px;
+}
+
 .bookInfo {
+  margin: .5em 0 0 0;
+  padding: 0 .3em;
   flex-wrap: nowrap;
   text-align: left;
 }
 
 .bookResults {
+  padding: 0 0 0 .5em;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 
-.Body {
-  font-family: 'Montserrat', sans-serif;
-  display: flex;
+.authors {
+  padding: .25em 0 .25em 0;
+  font-style: italic;
 }
 
-.Button {
+.title {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 1.5em;
+}
 
+.publisher {
+  padding: .25em 0 .25em 0;
 }

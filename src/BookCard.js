@@ -19,9 +19,9 @@ const BookCard = props => {
                 </img>
             </div>
             <div class="bookInfo">
-                <div>{bookData.title}</div>
-                <div>{bookData.publisher}</div>
-                <div>{authors}</div>
+                <div class="title">{bookData.title}</div>
+                <div class="authors">{authors}</div>
+                <div class="publisher">{bookData.publisher}</div>
                 <a href={bookData.infoLink}>More info</a>
             </div>
         </div>

@@ -41,13 +41,13 @@ class SearchBar extends Component {
     render() {
         //returns search bar for input and search button
         return (
-            <div className="Search-bar">
+            <div className="search-bar">
                 <input
                     type="text"
                     placeholder="Search"
                     ref={this.setInputRef}
                 />
-                <button className="Button" onClick={this.updateSearch}>Search</button>
+                <button className="button" onClick={this.updateSearch}>Search</button>
             </div>
         )
     }
