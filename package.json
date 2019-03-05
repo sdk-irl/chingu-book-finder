@@ -23,7 +23,7 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "http://sdk-irl.github.io/chingu-book-finder",
+  "homepage": "https://sdk-irl.github.io/chingu-book-finder/",
   "predeploy": "npm run build",
   "deploy": "gh-pages -b master -d build"
 }
